@@ -64,7 +64,7 @@ class RecipeRequirementView(ListView):
 #add new recipe requirement
 class NewRecipeRequirement(CreateView):
     model = RecipeRequirement
-    template_name = 'inventory/new_recipe_requirement.html'
+    template_name = 'inventory/new_reciperequirement.html'
     form_class = RecipeRequirementForm
 
 # purchases view
